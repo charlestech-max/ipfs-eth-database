@@ -1,0 +1,30 @@
+{
+  "name": "ipfs-eth-database",
+  "version": "0.0.1",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "date-fns": "^2.0.0-alpha.10",
+    "marked": "^0.4.0",
+    "openzeppelin-solidity": "1.10.0",
+    "preact": "^8.2.9",
+    "preact-compat": "^3.18.0",
+    "react-router-dom": "^4.3.1",
+    "styled-components": "^3.3.2",
+    "truffle": "^4.1.11",
+    "truffle-hdwallet-provider": "0.0.5",
+    "web3": "^1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1",
+    "solium": "^1.1.7"
+  },
+  "scripts": {
+    "start": "parcel app/index.html",
+    "test": "truffle test",
+    "lint": "solium -d ."
+  },
+  "alias": {
+    "react": "preact-compat",
+    "react-dom": "preact-compat"
+  }
+}
