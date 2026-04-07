@@ -27,4 +27,4 @@ function onConfirmation(confirmation) {
 Blog.methods.addPost(fileAddress).send({from: address, gas: 5000000, value: 5000000000000000})
   .on('transactionHash', function(hash){ console.log("https://rinkeby.etherscan.io/tx/" + hash) })
   .on('confirmation', onConfirmation)
-  .on('error', function(error){ console.log(error.message) });
+  .on('error', function(error){ console.log(error.message) });
