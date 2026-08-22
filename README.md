@@ -113,4 +113,4 @@ Your blog is available here:
 http://localhost:1234/#/u/0x351944e0d307d536737de4c6f07382548437fb53
 ```
 
-Now we can open the link above and check if our blog works properly.
+Now we can open the link above and check if our blog works properly.
