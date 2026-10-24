@@ -9,4 +9,4 @@ export function getWeb3() {
     web3Events = new Web3(new Web3.providers.WebsocketProvider("wss://rinkeby.infura.io/_ws"));
   }
   return { web3, web3Events };
-}
+}
